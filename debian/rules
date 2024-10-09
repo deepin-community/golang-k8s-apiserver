@@ -1,4 +1,10 @@
 #!/usr/bin/make -f
 
+# NB: Very minimal set of packages, only those needed for dependent packages
+# add more packages as needed, but be mindful of additional dependencies
+export DH_GOLANG_BUILDPKG := \
+  k8s.io/apiserver/pkg/server/httplog \
+  k8s.io/apiserver/pkg/util/wsstream
+
 %:
-	dh $@
+	dh $@ --builddirectory=_build --buildsystem=golang

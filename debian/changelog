@@ -1,5 +1,11 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-k8s-apiserver (0.20.15-2) unstable; urgency=medium
 
-  * Initial release
+  * No-source reupload to help with testing migration
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Reinhard Tartler <siretart@tauware.de>  Sat, 10 Aug 2024 15:04:33 -0400
+
+golang-k8s-apiserver (0.20.15-1) unstable; urgency=medium
+
+  * Initial release (Closes: #1077606)
+
+ -- Reinhard Tartler <siretart@tauware.de>  Tue, 30 Jul 2024 08:01:21 -0400
